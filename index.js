@@ -62,7 +62,7 @@ const record = [
   ]
 
 function superbowlWin(array) {
-   let result = array.find((item)=> item.result ==="W")
+   let result = array.find((item)=> item.result === "W")
    if (result){
     return result.year
    } else {
@@ -72,3 +72,5 @@ function superbowlWin(array) {
 }
 
 console.log(superbowlWin(record))
+
+
